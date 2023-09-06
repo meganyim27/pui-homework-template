@@ -37,12 +37,6 @@ a:visited {
     align-items: center;
 }
 
-.product-style {
-    display: block;
-    margin: auto;
-    width: max-content;
-}
-
 /* highlight for PRODUCTS heading */
 #product-header {
     background-color: yellow;
