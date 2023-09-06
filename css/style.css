@@ -51,7 +51,7 @@ a:visited {
 
 /* product gallery container */
 .food-container {
-    width: 600px;
+    width: max-content;
     margin: auto;
     display: block;
     padding-left: 20px;
