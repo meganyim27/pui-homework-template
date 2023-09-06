@@ -35,8 +35,7 @@ a:visited {
 /* overall for product gallery styling */
 .product-gallery {
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     text-align: center;
     color: black;
 }
@@ -50,10 +49,9 @@ a:visited {
 /* product gallery container */
 .food-container {
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     padding-left: 20px;
-    padding-right: 26px;
+    padding-right: 20px;
     padding-top: 20px;
     padding-bottom: 5px;
 }
@@ -70,6 +68,7 @@ a:visited {
     border: 5px solid black;
     margin-left: auto;
     margin-right: auto;
+    text-align: center;
 } 
 
 /* captions for product gallery images */
