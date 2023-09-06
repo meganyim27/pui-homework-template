@@ -7,10 +7,6 @@ body {
     margin-right: auto;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 /* logo styling */
 #logo {
     width: 400px;
@@ -32,13 +28,19 @@ a:visited {
     text-decoration: none;
 }
 
-/* overall for product gallery styling hi */
+/* overall for product gallery styling */
 .product-gallery {
     width: 100%;
     margin: auto;
     text-align: center;
     color: black;
     align-items: center;
+}
+
+.product-style {
+    display: block;
+    margin: auto;
+    width: max-content;
 }
 
 /* highlight for PRODUCTS heading */
