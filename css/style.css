@@ -7,9 +7,9 @@ body {
     margin-right: auto;
 }
 
-/* * {
+* {
     box-sizing: border-box;
-} */
+}
 
 /* logo styling */
 #logo {
@@ -17,7 +17,7 @@ body {
 }
 /* header line */
 hr {
-    height: 2px;
+    height: 5px;
     background-color: black;
 }
 
@@ -34,10 +34,11 @@ a:visited {
 
 /* overall for product gallery styling */
 .product-gallery {
-    width: 400px;
+    width: 100%;
     margin: auto;
     text-align: center;
     color: black;
+    align-items: center;
 }
 
 /* highlight for PRODUCTS heading */
@@ -48,8 +49,9 @@ a:visited {
 
 /* product gallery container */
 .food-container {
-    width: 400px;
+    width: max-content;
     margin: auto;
+    display: block;
     padding-left: 20px;
     padding-right: 20px;
     padding-top: 20px;
@@ -58,6 +60,9 @@ a:visited {
 
 .food-container:hover {
     background: yellow;
+}
+
+.food-container:hover .caption-text {
     font-weight: bold;
 }
 
@@ -82,17 +87,12 @@ a:visited {
     text-align: left;
 }
 
-.caption-text:hover {
-    text-align: left;
-    font-weight: bold;
-}
-
 .caption-price {
     text-align: left;
 }
 
 .specific-product-container {
-    width: 400px;
+    width: max-content;
     margin-left: auto;
     margin-right: auto;
 }
