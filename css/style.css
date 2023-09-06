@@ -113,6 +113,15 @@ a:visited {
     font-weight: bold;
 }
 
+.product-images {
+    width: 600px;
+    display: block;
+    border: 5px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+} 
+
 .button {
   width: 100px;
   height: 25px;
