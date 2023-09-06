@@ -7,6 +7,10 @@ body {
     margin-right: auto;
 }
 
+/* * {
+    box-sizing: border-box;
+} */
+
 /* logo styling */
 #logo {
     width: 400px;
