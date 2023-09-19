@@ -22,7 +22,7 @@ body {
 }
 
 .nav-bar .header-categories {
-    margin-left: 250px;
+    margin-left: 400px;
 }
 
 .header-categories {
@@ -139,10 +139,8 @@ a:visited {
 /* product detail word styling */
 .product-caption-text {
     width: 400px;
-    margin-left: auto;
-    margin-right: auto;
     text-align: left;
-    font-size: 22px;
+    font-size: 30px;
 }
 
 /* product-detail-dropdown-styling */
@@ -151,7 +149,6 @@ a:visited {
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    /* font-size: 16px; */
 }
 
 .product-details-container {
@@ -163,7 +160,10 @@ a:visited {
 }
 
 .product-details-container p {
-    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 30px;
 }
 
 .product-images {
@@ -176,20 +176,20 @@ a:visited {
 } 
 
 label {
-    font-size: 22px;
+    font-size: 30px;
 }
 
 #glazing-dropdown {
-    width: 250px;
-    height: 30px;
-    font-size: 14px;
+    width: 275px;
+    height: 35px;
+    font-size: 18px;
     border: 2px solid black;
 }
 
 #pack-size {
-    width: 250px;
-    height: 30px;
-    font-size: 14px;
+    width: 275px;
+    height: 35px;
+    font-size: 18px;
     border: 2px solid black;
 }
 
@@ -213,11 +213,15 @@ label {
 }
 
 .cart-product-1 p {
+    display: flex;
+    align-items: center;
     margin-left: 40px;
     font-size: 22px;
 }
 
 .cart-product-2 p {
+    display: flex;
+    align-items: center;
     margin-left: 40px;
     font-size: 22px;
 }
@@ -233,35 +237,58 @@ label {
     flex-direction: column;
 }
 
-.cart-picture p {
-    font-size: 10px;
+.remove-tag {
+    font-size: 12px;
     text-decoration: underline;
     margin-left: 420px;
 }
 
+.cart-price {
+    display: flex;
+    justify-content: right;
+    width: 50px;
+}
+
 .cart-line {
     border-top: 5px solid black;
-    width: 100%;
-    margin-top: 10px;
+    width: 800px;
+    margin-right: 0;
+    margin-top: 20px;
     margin-left: 420px;
 }
 
 .cart-total {
     display: flex;
     flex-direction: row;
-    gap: 403px;
+    gap: 350px;
+    /* justify-content: space-between; */
     margin-left: 665px;
     font-size: 22px;
 }
 
-.button {
+.cart-button {
     display: block;
     float: right;
-    width: 120px;
-    height: 30px;
+    width: 150px;
+    height: 50px;
     margin-right: 143px;
   
-    font-size: 14px;
+    font-size: 18px;
+    font-weight: bold;
+  
+    background-color: yellow;
+    border: 2px solid black;
+    border-radius: 0px;
+  }
+
+  .checkout-button {
+    display: block;
+    float: right;
+    width: 150px;
+    height: 50px;
+    margin-right: 75px;
+  
+    font-size: 18px;
     font-weight: bold;
   
     background-color: yellow;
