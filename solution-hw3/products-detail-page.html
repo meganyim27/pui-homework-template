@@ -6,6 +6,7 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js" defer></script>
 </head>
 
 <body>
@@ -48,19 +49,19 @@
                 <br>
                 <br>
                 <br>
-                <label>Glazing:</label>
+                <label >Glazing:</label>
                 <br>
                 <select id="glazing-dropdown" onchange="glazingChange(this)">
-                    <option value="0">Keep Original</option>
-                    <option value="0.5">Sugar Milk</option>
-                    <option value="1">Vanilla Milk</option>
-                    <option value="1.5">Chocolate Milk</option>
+                    <option value="Keep Original">Keep Original</option>
+                    <option value="Sugar Milk">Sugar Milk</option>
+                    <option value="Vanilla Milk">Vanilla Milk</option>
+                    <option value="Double Chocolate">Double Chocolate</option>
                 </select>
                 <br>
                 <br>
-                <label>Pack Size:</label>
+                <label for="pack-size">Pack Size:</label>
                 <br>
-                <select id="pack-size">
+                <select name="pack-size" id="pack-size">
                     <option value="1">1</option>
                     <option value="3">3</option>
                     <option value="6">6</option>
@@ -75,7 +76,7 @@
 
             <!-- price and add to cart -->
             <div class="product-details-container">
-                <p> $<span id="totalPrice"> 2.49 </span> <a href="./cart.html"> <button class="cart-button">Add to Cart </button> </a></p>
+                <p> $2.49 <a href="./cart.html"> <button class="cart-button">Add to Cart </button> </a></p>
             </div>
         </div>
 
