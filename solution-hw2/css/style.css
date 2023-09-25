@@ -152,17 +152,19 @@ a:visited {
 }
 
 .product-details-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    font-weight: bold;
 }
 
-.product-details-container p {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.price-style {
+    font-weight: bold;
     font-size: 30px;
 }
 
@@ -261,7 +263,6 @@ label {
     display: flex;
     flex-direction: row;
     gap: 350px;
-    /* justify-content: space-between; */
     margin-left: 665px;
     font-size: 22px;
 }

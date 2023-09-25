@@ -52,21 +52,14 @@
                 <label >Glazing:</label>
                 <br>
                 <select id="glazing-dropdown" onchange="glazingChange(this)">
-                    <option value="Keep Original">Keep Original</option>
-                    <option value="Sugar Milk">Sugar Milk</option>
-                    <option value="Vanilla Milk">Vanilla Milk</option>
-                    <option value="Double Chocolate">Double Chocolate</option>
                 </select>
                 <br>
                 <br>
-                <label for="pack-size">Pack Size:</label>
+                <label>Pack Size:</label>
                 <br>
-                <select name="pack-size" id="pack-size">
-                    <option value="1">1</option>
-                    <option value="3">3</option>
-                    <option value="6">6</option>
-                    <option value="12">12</option>
+                <select id="pack-size" onchange="glazingChange(this)">
                 </select>
+                <div id="info"></div>
             </div>
 
             <br>
@@ -76,7 +69,8 @@
 
             <!-- price and add to cart -->
             <div class="product-details-container">
-                <p> $2.49 <a href="./cart.html"> <button class="cart-button">Add to Cart </button> </a></p>
+                <span class="price-style"> $<span class="price-style" id="price">2.49</span> </span>
+                <span class="price-style"> <a href="./cart.html"> <button class="cart-button">Add to Cart </button> </a> </span>
             </div>
         </div>
 

@@ -152,17 +152,19 @@ a:visited {
 }
 
 .product-details-container {
-    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: 420px;
     margin-left: auto;
     margin-right: auto;
     text-align: left;
-    font-weight: bold;
 }
 
-.product-details-container p {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.price-style {
+    font-weight: bold;
     font-size: 30px;
 }
 
