@@ -7,6 +7,7 @@
 <head>
     <link rel="stylesheet" href="css/style.css">
     <script src="./js/script.js" defer></script>
+    <script src="./js/rollsData.js" defer></script>
 </head>
 
 <body>
@@ -26,9 +27,7 @@
           <br>
           <br>
           <br>
-          <div class="product-name">
-            <p>Original Cinnamon Roll</p>
-          </div>
+          <div id="chosenBun-header"></div>
         </div>
       </div>
 
@@ -37,7 +36,7 @@
       <br>
 
     <div class="specific-product-container">
-        <img class="product-images" src="../assets/products/original-cinnamon-roll.jpg" />
+        <img id="product-img" src=""></img>
 
         <div class="product-text-details-container">
             <p class="product-caption-text">Customize our delicious, hand-made cinnamon roll to your liking!</p>
@@ -70,7 +69,7 @@
             <!-- price and add to cart -->
             <div class="product-details-container">
                 <span class="price-style"> $<span class="price-style" id="price">2.49</span> </span>
-                <span class="price-style"> <a href="./cart.html"> <button class="cart-button">Add to Cart </button> </a> </span>
+                <button class="cart-button" onclick="cartFunction()">Add to Cart </button>
             </div>
         </div>
 
