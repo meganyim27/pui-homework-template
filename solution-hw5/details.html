@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta charset="UTF-8">
+<title>Product Detail Page</title>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js" defer></script>
+    <script src="./js/rollsData.js" defer></script>
+</head>
+
+<body>
+
+    <!-- logo in header and line hi -->
+    <div class="header-container">
+        <!-- <div id="logo"> -->
+        <a href="./index.html"> <img class ="logo" src="../assets/logo/logo-01.svg" alt="Bun Bun logo"> </a>
+        <!-- </div> -->
+        <div class="nav-bar">
+          <div class="header-categories">
+            <p> <span id="product-header"> <a href="./index.html"> PRODUCTS </a> </span> </p>
+            <p> <a href="./cart.html">CART</a></p>
+          </div>
+          <div class="header-line"></div> 
+          <br>
+          <br>
+          <br>
+          <br>
+          <div id="chosenBun-header"></div>
+        </div>
+      </div>
+
+      <br>
+      <br>
+      <br>
+
+    <div class="specific-product-container">
+        <img id="product-img" src=""></img>
+
+        <div class="product-text-details-container">
+            <p class="product-caption-text">Customize our delicious, hand-made cinnamon roll to your liking!</p>
+            <div class="dropdown-container">
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <label >Glazing:</label>
+                <br>
+                <select id="glazing-dropdown" onchange="glazingChange()">
+                </select>
+                <br>
+                <br>
+                <label>Pack Size:</label>
+                <br>
+                <select id="pack-size" onchange="glazingChange()">
+                </select>
+                <div id="info"></div>
+            </div>
+
+            <br>
+            <br>
+            <br>
+            <br>
+
+            <!-- price and add to cart -->
+            <div class="product-details-container">
+                <span class="price-style"> $<span class="price-style" id="price">2.49</span> </span>
+                <button class="cart-button" onclick="cartFunction()">Add to Cart </button>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
