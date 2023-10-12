@@ -210,14 +210,99 @@ label {
 }
 
 /* shopping cart page styling */
-.cart-images {
+/* .cart-images {
+    width: 200px;
+    display: block;
+    margin-left: 420px;
+    border: 3px solid black; 
+    margin-left: auto;
+    margin-right: auto; 
+} */
+
+#cart-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.roll-container {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 22px;
+}
+
+.roll-container img{
+    width: 200px;
+    border: 3px solid black;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.rem-btn {
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+/* .item-name {
+    border: 5px solid black;
+} */
+
+/* #Original {
+    display: flex;
+    flex-direction: row;
+} */
+
+/* #Original img {
+    width: 200px;
+    display: block; 
+    margin-left: 420px;
+    border: 3px solid black;
+} */
+
+/* #Walnut {
+    display: flex;
+    flex-direction: row;
+} */
+/* 
+#Walnut img {
     width: 200px;
     display: block;
     margin-left: 420px;
     border: 3px solid black;
-    /* margin-left: auto;
-    margin-right: auto; */
 }
+
+#Raisin {
+    display: flex;
+    flex-direction: row;
+}
+
+#Raisin img {
+    width: 200px;
+    display: block;
+    margin-left: 420px;
+    border: 3px solid black;
+}
+
+#Apple {
+    display: flex;
+    flex-direction: row;
+}
+
+#Apple img {
+    width: 200px;
+    display: block;
+    margin-left: 420px;
+    border: 3px solid black;
+} */
+
 
 .cart-remove {
     text-decoration: underline;

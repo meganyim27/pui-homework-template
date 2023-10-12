@@ -5,8 +5,8 @@
 
 <head>
     <link rel="stylesheet" href="css/style.css">
-    <script src="./js/script.js" defer></script>
-    <script src="./js/rollsData.js" defer></script>
+    <!-- <script src="./js/script.js" defer></script>
+    <script src="./js/rollsData.js" defer></script> -->
     <script src="./js/app.js" defer></script>
 </head>
 
@@ -34,42 +34,15 @@
       </div>
 
         <!-- shopping cart items -->
-        <div class="cart-product-1">
-            <div class="cart-picture">
-                <img class="cart-images" src="../assets/products/original-cinnamon-roll.jpg" />
-                <!-- <p>Remove</p> -->
-            </div>
-            <p class="cart-caption">Original Cinnamon Roll<br>Glazing: Keep Orginial<br>Pack Size: 1</p>
-            <div class="cart-price">
-                <p>$2.49</p>
-            </div>
-        </div>
-        
-        <div class="remove-tag">
-            <p>Remove</p>
-        </div>
-
-        <br>
-
-        <div class="cart-product-2">
-            <div class="cart-picture">
-                <img class="cart-images" src="../assets/products/double-chocolate-cinnamon-roll.jpg" />
-            </div>
-            <p class="cart-caption">Double-Chocolate Cinnamon Roll<br>Glazing: Sugar Milk<br>Pack Size: 6</p>
-            <div class="cart-price">
-                <p>$27.45</p>
-            </div>
-        </div>
-
-        <div class="remove-tag">
-            <p>Remove</p>
-        </div>
+        <div id="cart-list">
+            <!-- populate all cart items -->
+        </div> 
 
         <div class="cart-line"></div>
 
         <div class="cart-total">
             <p>Total</p>
-            <p>$29.94</p>
+            <p id="cartPrice">$29.94</p>
         </div>
 
         <button class="checkout-button">Checkout</button>
