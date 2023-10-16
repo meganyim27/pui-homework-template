@@ -33,8 +33,7 @@ function displayRoll(roll) {
     // get the image for each product item
     let item_img = document.createElement("img");
     item_img.classList.add("item-img");
-    item_img.src = 'assets/products/'+roll.type+"-cinnamon-roll.jpg";
-    // assets/products/Original-cinnamon-roll.jpg
+    item_img.src = '../assets/products/'+roll.type.toLowerCase()+"-cinnamon-roll.jpg";
     mainContainer.appendChild(item_img);
     
     mainContainer.appendChild(textContainer);
