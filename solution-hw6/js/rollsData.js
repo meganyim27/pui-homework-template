@@ -106,19 +106,9 @@ function saveToLocalStorage () {
     console.log(storedCart);
 };
 
-//retrieving data from the local storage
+// retrieving data from the local storage
 let cartFromStorage = [];
 const storedCart = localStorage.getItem("storedCart")
     if (storedCart !== null) {
         cart = JSON.parse(storedCart);
 }
-
-// function retrieveFromLocalStorage() {
-//     const getStoredCart = localStorage.getItem('storedCart');
-//     const storedCartArray = JSON.parse(getStoredCart);
-//     for (const item of storedCartArray) {
-//       const cartItem = addNewRoll(item.rollType, item.rollGlazing, item.packSize, item.rollPrice);
-//       createElement(cartItem);
-//     }
-//   }
-  
